@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Montserrat|Open+Sans|Oswald|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant:500|Libre+Baskerville:700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Cormorant Infant', serif;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.img-container{
+  text-align: center;
+}
+
+.logo img{
+  padding: 30px;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+.container-nav{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    text-transform: uppercase;
+    color: #8a8a8a;
+}
+
+.left-side{
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div{
+  padding-top: 30px;
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+.grid-box-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    background-color: #fff;
+    color: #444;
+  
+  }
+  
+  .grid-box {
+    height: 360px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 3px;
+       -webkit-box-shadow: 0 10px 6px -6px #777;
+         -moz-box-shadow: 0 10px 6px -6px #777;
+              box-shadow: 0 10px 6px -6px black;
+    border:3px double #ccc;
+  }
+ /* .box2 { 
+      grid-row-end: span 2;
+  }
+  .box3 { 
+      grid-row-end: span 3;
+  }
+  .box4 { 
+      grid-row-end: span 4;
+  } */
+
+  .grid-box h2{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 2.5em;
+    padding: 30px;
+  }
+  .grid-box ul li{ 
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    margin-top: 5px;
+    
+  }
+  .grid-box ul li a{
+    font-family: 'Cormorant Infant', serif;
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+  } 
+
+  .grid-box ul li a:hover{
+    border-bottom: 2px solid #cb0000; 
+} 
+ 
+.container-founder {
+  font-family: 'Cormorant Infant', serif;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  text-size-adjust: 100%;
+  overflow: hidden;
+  color: #000;
+}
+article {
+  width: 100%;
+  margin: 1rem 15% 5rem 5%; 
+  max-width: 1200px;
+}
+article h1 {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 3.8rem;
+ /* color: #9D2235; */
+ color: #000;
+  margin: 0;
+  line-height: 1.8em;
+}
+article p {
+  line-height: 1.4em;
+  font-size: 20px;
+  font-weight: 500;
+}
+.container-founder h1{
+  margin-left: 20vw;
+}
+.container-founder p{
+  margin-left: 20vw;
+}
+article .founder-img {
+  width: 40vw;
+  float: left;
+  margin: 1em; 
+  shape-outside: url(../img/bkgrdImage.jpg); 
+  shape-margin: 0.8em;
+  shape-image-threshold: 0.5;
+}
+
+section#mission{
+  margin-top: 5vh;
+}
+
+section#mission h2{
+  font-family: 'Cormorant Infant', serif;
+  color: #000;
+  font-size: 3.8rem;
+}
+
+section#mission p{
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+hr{
+  margin-top: 40px;
+}
+
+.container-goals{
+  max-width: 1000px;;
+}
+.container-goals ul li span:nth-child(1){
+  padding: 20px;;
+}
+
+.container-goals ul li p{
+  padding-left: 50px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.container-goals ul li{
+  list-style: none;
+}
+
+.heading-container h1 {
+  font-family: 'Cormorant Infant', serif;
+  line-height: 1;
+  margin: 20px 0 40px 0;
+  padding-left: 50px;
+  color: #000;
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+
+.picture img {
+  width: 100%;
+  height: 100%; }
+
+.bg-program img{
+ width: 100%;
+ overflow: hidden;
+ margin: 0;
+ padding: 0%
+}   
+
+
+.content {
+  margin: 50px 0 50px 0; }
+
+.content h2, h4 {
+  font-family: 'Cormorant Infant', serif;
+  color: #c40d0d;
+  text-align: left;
+  font-weight: 600; 
+}
+
+.content p {
+  font-family: 'Cormorant Infant', serif;
+  color: #000;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.4
+}
+
+@media screen and (max-width: 444px) {
+  .brand {
+      padding-left: 15px; }
+}
+
+.fa-circle{
+  font-size: 14px;
+}
+
+.team{
+  padding-bottom: 2.2em; 
+  text-align: center;
+}
+.team h1{
+  font-family: 'Cormorant Infant', serif;  
+  color: #000;
+  font-weight: 600;
+  font-size: 3.8rem;
+}
+.item p{
+  font-size: 20px;
+  line-height: 1.4;
+}
+.team span{
+font-size: 3rem;
+}
+.team span.red{
+  color: #cb0000;
+}
+.team .test-body{
+  padding: 1em;
+}
+.team .item{ 
+  text-align: center;
+  padding: 1em 0;
+}
+.team img{
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+}
+.team .name{color: #9D2235;
+}
+.team .desig{
+  font-size: 0.8em;
+  padding: 0.5em 0;
+}
+.team .share{
+  margin: 0 auto;
+  width: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.team i{
+  padding: 0.5em 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  color: #9D2235;
+}
+.team i:hover{color: #0d2585ea;}
+.team p{
+  max-width: 27em;
+  margin: 0 auto;
+  font-size: 0.8em;
+}
+
+@media (min-width: 38.4rem){
+  .team{
+      font-size: 1.2em;
+  }
+  .team .test-body{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+  }
+  .team p{
+      text-align: left;
+      padding: 1em;
+  }
+}
+
+
